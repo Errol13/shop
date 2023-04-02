@@ -12,5 +12,5 @@
 </div>
     </div>
 </div>
-<x-product-list></x-product-list>
+<x-product-list :products="$products" :admin="$admin"></x-product-list>
 @endsection
